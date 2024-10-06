@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import {Button, Typography, Box, Paper, TextField, Container, Radio, RadioGroup, FormControlLabel, FormControl, FormLabel, MenuItem, InputLabel, Select, Divider,  Rating, FormGroup, Checkbox, Dialog, DialogTitle, DialogActions, DialogContent, DialogContentText, Chip, Stack} from '@mui/material'
 import Grid from '@mui/material/Grid2'
 
-function FormActivity() {
+function Formulario() {
   // Estado inicial del formulario
   const initialData = { name: '', apellido: '', age: '', languaje: '', rating: 0, check: false, genero: '' }
   const [data, setData] = useState(initialData) 
@@ -212,4 +212,4 @@ function FormActivity() {
   );
 }
 
-export default FormActivity
+export default Formulario
